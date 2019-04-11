@@ -1,5 +1,5 @@
 # bitcoin-wallet
-Very simple but effective bitcoin wallet, 
+Very simple but effective bitcoin wallet
 * Open source. 
 * Highly secured. 
 * Work from your private computer 
