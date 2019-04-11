@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label5.Text" xml:space="preserve">
+    <value>The generator create for you a new unique address and private key for the bitcoin network.
+
+The private key, and the address are not saved anywhere - for a security reason.  
+
+If you wish to use them later you must copy and save them in other location, like in a text file on your USB or other private secure media you own.</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>1. This wallet is working from your private computer, not from a website, wallets that are working from websites are exposed to attacks by hackers that's why they are not secured, your input data might be saved in the website databases or stolen by hackers, and you won't even know it, this is not the case in this wallet.
+
+2. The code for this wallet is an open source and it is hosted in Github, you can download it, open it, read it, even compile it, and you will see for yourself that the only thing the code is doing is transferring bitcoin by your order.  so the code is open and secured.
+
+3. This private wallet doesn't save any data at all!
+it has no information about your private key or the amount of bitcoin in your wallet, the wallet does not need to encrypt your password or key because it doesn't save anything, the only thing you need for transferring bitcoin is an address and a valid private key.
+
+4. You can use this wallet to generate many addresses and private key, not just one.
+
+5. You can transfer bitcoin from any address you have its private key.
+
+6. Actions from this wallet are untraceable.</value>
+  </data>
+  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>181, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEACACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA
+        AAAAAAAAAAABAECf6ABAovQAAAEBAAIGCQAelPYAAQIDAAABAgAAAgMAH4/nADWe9wBEpvcAPaP3AB+T
+        8gBFpvYAOKD1AAQOFgAFFiQABRgmAAoaJgBCo/MAChklAA4iMgA6jcwAPqHzADaKzwAHHzIAJ5j2ACKV
+        8gAklPEAIZTyAAABAwAUVYgAJ5j3AAEFCQAhlfUAR6f3ACeX8wAmnPcAM571AESk9AAjW4kASKv3AEan
+        9wANHisASaj2AC1qmAAIEhkAPpDRAESd5QBGoOgAKpr3AD+l9gA6n/MAMZ31ABU9XgA7ofYAMpfpAC+b
+        9gAlZJcALYfSADuo/gA3l+cAK5r0ACyZ9AAulOkAJ4XRABlflwAbkvQAHZP0ABqL5AAdkvMAFn7OABmM
+        5wALOmAAAxAZAAsbJwAafcsAHn/MAB59ywAafcwAKWGMAChfigARVIkAHZX1ADFwogAkaaEAHUNgAB1n
+        ogAQVYsAJpHmABE8XgAdQ2AAMXChAB2W9QAFGisAETxfABJclwARYqIAJpHnAB5nowAla6IAEl2XAAUb
+        KwARYKEA////ADKe+AAzn/gAOKH4ADqi+ABDpvkAIJb3AEao+QAwnfgAIpf3ADWg+QA+pPgANaD4ADyj
+        +AAnmfgALJz4ACia+AArm/gAO6L4ACSY9wBEp/kAH5X3AP3+/wAlmPcAKpr4AC+d+ABBpfkARaf5AECk
+        +QA0n/gAKZr4ACaZ+AD7/f8A/P3/AC6d+ABBpvkAHZX3AD+k+QAak/gA/v//AEu1/wBApfkAKqX/ACGf
+        /wAmmfcASan5AC6k/wAdl/sAQqb5AB2b/wAjl/cAG5T3APr9/wDV6/4AzOf9ACGX+ABHqPkAL534AE+s
+        +QA7ovkAOaL5AGW3+gB5wfoAEY/4AK/Z/AD+/v8Adb77AN3v/gBitfoARaz/AEiv/wBErv8AJp//ACOc
+        /gBFsv8AIqH/AB6V+AA1ofsAJZj4AEqr/ABMsf8ASKv9AEuu/wBNsf8AOaH4ADyl/ABBsP8AMZ/7ADil
+        /gA8qf8AMKH+ACud/AAdmP4AJJf4AByU+ADZ7f4AvN/9AJnP/ACc0PwAqdb8AKPU/ACCxPsAksz8AG+7
+        +gBRrfkAut79AMjl/QCOyvsAd7/6AIXG+wDg8P4AWbH6AO32/gCGxvsAMJ74ADWf+AAxnvgAxOP9AO73
+        /gDS6v4AGJP3AOHx/gDq9f4AFpH3AK3Y/AA3oPgAptX8APP5/wBNq/kAut78AL7g/QD4/P8A7/f/AFav
+        +QA4ovgA2O3+AH7C+gBQrfoAlc37AMLi/QCf0fwA5PL+AFSu+QCHxvsAB4r2AG26+gD2+/8AXbL5ABWR
+        +ACz2/wAAAAAAAAABAkAAExLaUlKRUVKSWNLTAAACQEAAAAAAAAAAAAAAAgAAGhnR5ubxpmdnZnGm5tH
+        YmAAAAgAAAAAAAAAAAAJACNaX5WZRkgGBo6OBgZIRpmVVVQjAAkAAAAAAAAACQATUbV/DgZ/f39wcHB/
+        f39/Bg5/tU4TAAkAAAAAAAkAGwqVDiRwcHOccHCOcHBwcHBwcCQOlQobAAkAAAAIABIKsx9zc3OcjuJz
+        joOWcHNzc3Nzc3MfswoTAAgABCAFULIdfX19fZxs753X2vidNJaWfX19fX0dsk8FIAQHACGUHpaBgYEc
+        ncpqh9Zq2/qQ5eKBloGBgZYelCEABwETJyIceHh4eoyQ1ZGniIugrvnbp3qhenh4eBwiJxMBAESUJnp6
+        eoihyKnZaqCqnmpqampq4abHgnp6eiaURAARW8U0goJ7eIXWzdhqampqavxqap5qyrZ5goKCNMVkEVyY
+        QHt7e4PIz2pqaquA//vSb/2tq4uKhbh5e3t7QJhhWZhBeXl5jIJt3+bagGqsqXp5/qxqnpGnoXJ5eXlB
+        mGVDxDuDg4OMg4x7qehqatN4dnuQzGqraqR43IODgzvEQ0LBO3JycnJy3oe4rGpq93iJcfaAgO3LeGty
+        cnJycsFCN2tra2tra2trbHuX7WqLqqBqamqAyZqCh2tra2trazcobGxsbGxsbGxsh3LxaoBqatifimpq
+        4JeM3WxsbGxsKDq3C3Z2dnZ2dnZtls1qkaCa53mu6YtqzIFtdnZ2C7c6PcILdnZ2dnZ2dvCIqGpq44fw
+        bpyfaoDTiL52dnYLwj1XPhBtbW1tbW1t8GvSnmpq2XN5qPztatA0d21tbRA+ZjjDEG5ubm5ubm5ubnKf
+        amrO8tRqamrUd21ubm5uEMM4ET+/OXx8fHx8fHe+pK2LgGpqaoCt1W1td3x8fDm/PxEAPMA2d3d3d3d1
+        h6pqampqi/Xxka6JdXV3d3d3NsA8AAEUNQ11dXV1dYRyzuTr15+KdaiR9GuEdXV1dXUNNRQBBwAqtBmT
+        hoaGk4+FhXbHy2rP82rsdJqGhoaTGbQqAAcEBwUasQONhISEmo+PcabR7tCl0aSThISEjQOxGgUHBAAI
+        ABYCrwNvb29vb29vmqLqj2+mj29vb28DrwIWAAgAAAAHABcCsBUMfn5+fn5+b4SFfnGFfn4MFbACFwAH
+        AAAAAAAHABQYknEpDHFxcXFxcXFxcXEMKYWSGE0ABwAAAAAAAAAHAAVTK5K7Dw8sJaKiJSwPD7uSK1IF
+        AAcAAAAAAAAAAAAIAAAtLzK6vby5l5e5vL26Mi8tAAAIAAAAAAAAAAAAAAAEBwAAMFhWMTMuLjMxXl0w
+        AAAHBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+</root>
